@@ -13,7 +13,7 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	margin-left: 10%;
-	margin-right: 30%;
+	margin-right: 22%;
 }
 
 #head {
@@ -41,4 +41,13 @@
 	margin: auto;
 	margin-top: 15px;
 	width: 220px;
+}
+
+#pic img {
+	width: 80%;
+}
+
+#about {
+	padding-top: 0px;
+	height: 530px;
 }
