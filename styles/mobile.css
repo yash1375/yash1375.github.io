@@ -13,7 +13,7 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	margin-left: 10%;
-	margin-right: 22%;
+	margin-right: 26%;
 }
 
 #head {
@@ -39,15 +39,41 @@
 	float: none;
 	text-align: center;
 	margin: auto;
-	margin-top: 15px;
+	margin-top: 110px;
 	width: 220px;
-}
-
-#pic img {
-	width: 80%;
 }
 
 #about {
 	padding-top: 0px;
 	height: 530px;
+}
+
+#pic img {
+	width: 60%;
+	height: 20%;
+}
+
+@media only screen and (max-width: 400px) {
+	#about {
+		height: 600px;
+	} 
+	#head_icons {
+		text-align: center;
+		border-left-style: solid;
+		border-right-style: solid;
+		margin-left: 10%;
+		margin-right: 22%;
+	}
+	
+}
+
+@media only screen and (max-width: 330px) {
+	#about {
+		height: 730px;
+	}
+
+	#f1 {
+    height: 400px;
+	width: 100%;
+}
 }
