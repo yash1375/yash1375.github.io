@@ -1,6 +1,6 @@
 #about {
 	padding-top: 0px;
-	height: 420px;
+	height: 530px;
 }
 
 #f1 {
@@ -13,7 +13,7 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	margin-left: 10%;
-	margin-right: 26%;
+	margin-right: 30%;
 }
 
 #head {
@@ -39,13 +39,8 @@
 	float: none;
 	text-align: center;
 	margin: auto;
-	margin-top: 110px;
+	margin-top: 150px;
 	width: 220px;
-}
-
-#about {
-	padding-top: 0px;
-	height: 530px;
 }
 
 #pic img {
@@ -76,4 +71,20 @@
     height: 400px;
 	width: 100%;
 }
+}
+@media only screen and (max-width: 500px) {
+	#head_icons {
+		text-align: center;
+		border-left-style: solid;
+		border-right-style: solid;
+		margin-left: 10%;
+		margin-right: 27%;
+	}
+}
+
+@media only screen and (max-width: 260px) {
+	#about {
+		height: 1050px;
+	}
+
 }
