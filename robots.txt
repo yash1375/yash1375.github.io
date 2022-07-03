@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://yashw.tk/sitemap.xml
